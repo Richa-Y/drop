@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper{
+  display:none;
+}
+
+.item:hover .wrapper { 
+  /*some css*/
+  display:block;
+  background-color: rgb(240, 243, 245);
+  cursor: pointer;
+
+ }
+ .data{
+   list-style: none;
+   display:none;
+   background-color: rgb(240, 243, 245);
+   cursor: pointer;
+height:40px;
+   width:100%;
+ }
+ .drop{
+   width:30%;
+   position:relative;
+   top:40%;
+   left:35%;
+ }
+ .ulclass{
+  width: 88%;
+  position: relative;
+  right: 20%;
+  color:skyblue;
+ }
+ .drop2{
+   width:90%;
+   padding:10px;
+   background-color: rgb(240, 243, 245);
+   cursor: pointer;
+
+   outline: none;
+   border:transparent
+ }
+ .drop:hover .data { 
+  /*some css*/
+  display:block;
+  background-color: rgb(240, 243, 245);
+  cursor: pointer;
+
+ }
+ .overColor{
+   width:40%;
+   height:300px;
+   position:relative;
+   margin:auto;
+   background-color: aqua;
+ }
+ .color2{
+  position: relative;
+  top: 35%;
+  left: 24%;
+ }
